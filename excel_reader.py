@@ -172,7 +172,6 @@ class ExcelReader:
                         mapping[field] = idx
                         break
 
-        # Prefer the measured section distance over "Distance Covered". In the
         # attached workbook, column E holds that value; in the second table its
         # header is mistyped as a year, so the surrounding columns identify it.
         total_distance_columns = [
