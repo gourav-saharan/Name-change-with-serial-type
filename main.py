@@ -5,8 +5,7 @@ Main entry point for the application.
 This application safely renames VBOX test files by updating their serial prefix
 based on data from an Excel spreadsheet.
 
-Usage:
-    python main.py
+ 
     
 """
 
