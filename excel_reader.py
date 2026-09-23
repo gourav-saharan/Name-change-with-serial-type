@@ -17,7 +17,6 @@ from openpyxl import load_workbook
 
 
 class ExcelReader:
-    """Reads and processes Excel files for route data."""
 
     COLUMN_VARIATIONS = {
         "serial": [
