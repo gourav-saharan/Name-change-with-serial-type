@@ -172,7 +172,6 @@ class ExcelReader:
                         break
 
         # attached workbook, column E holds that value; in the second table its
-        # header is mistyped as a year, so the surrounding columns identify it.
         total_distance_columns = [
             idx
             for idx, cell in enumerate(normalized_cells)
