@@ -81,13 +81,11 @@ class RenameLogger:
         ws = wb.active
         ws.title = "Rename Log"
 
-        # Headers
         headers = ['Timestamp', 'Old Name', 'New Name', 'Status', 'Serial Number', 'Excel Row',
                    'Sheet', 'Source Row', 'Direction', 'Start Point', 'End Point',
                    'Road Type', 'Distance', 'Reason']
         ws.append(headers)
 
-        # Style header row
         header_fill = PatternFill(start_color="4472C4", end_color="4472C4", fill_type="solid")
         header_font = Font(bold=True, color="FFFFFF")
 
