@@ -1,10 +1,4 @@
-"""
-Excel Reader Module
 
-Reads route-order workbooks and exposes a clean route table for the renamer.
-The reader supports both ordinary single-header sheets and the attached style
-where one sheet contains an A-to-B table followed by a B-to-A table.
-"""
 
 from __future__ import annotations
 
