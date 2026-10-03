@@ -1,7 +1,4 @@
-"""
-Logger Module
-Handles safe logging of rename operations and undo functionality.
-"""
+
 
 import json
 import os
@@ -59,10 +56,10 @@ class RenameLogger:
             Tuple of (success: bool, message: str)
         """
         try:
-            # Save JSON log
+        
             self._save_json_log()
 
-            # Save Excel log
+        
             self._save_excel_log()
 
             return True, f"Logs saved: {self.json_log_path} and {self.xlsx_log_path}"
