@@ -164,8 +164,6 @@ class ExcelReader:
                     if normalized == self._normalize_header(variation):
                         mapping[field] = idx
                         break
-
-        # attached workbook, column E holds that value; in the second table its
         total_distance_columns = [
             idx
             for idx, cell in enumerate(normalized_cells)
